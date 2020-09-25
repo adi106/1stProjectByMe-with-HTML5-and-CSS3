@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>All Products of E-Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="contactcontainer">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+    <div class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate molestias ipsam labore debitis dolorum alias, ea nam nisi officia, pariatur dolore. Recusandae ipsa praesentium maxime eum at nobis aliquid culpa.</p>
+        </div>
+        <div class="contactcontainer">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Sangit College Road, Chakbazar,Sadar,Dinajpur</p>
+                    </div>
+
+
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>07887674657</p>
+                    </div>
+
+
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>adibhat@dsrt.com</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name=" " required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name=" " required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Message</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!---------footer--------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>download app for android and ios mobile phones</p>
+                    <div class="applogo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/logo1.png">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of our accessibles to many.</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilitiate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Foolow Us in Social Medias</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Aditya Bhattacharjee</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            } else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+
+
+
+
+</body></html>
